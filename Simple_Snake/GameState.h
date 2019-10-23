@@ -1,0 +1,9 @@
+#ifndef GAMESTATE_H
+#define GAMESTATE_H
+
+enum GameState
+{
+	SPLASH, MENU, RUNNING, PAUSE, GAME_OVER, WIN, CREDITS
+};
+
+#endif
